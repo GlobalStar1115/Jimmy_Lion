@@ -1,0 +1,39 @@
+.header-top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.custom-top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-bar__messages__list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar__messages__list__item {
+    transition-duration: 2.6s;
+}
+
+.top-bar__messages__list__item:first-child {
+    opacity: 1;
+}
+
+.top-bar__messages__list__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition-property: opacity;
+    transition-timing-function: ease;
+}

@@ -1,0 +1,37 @@
+.custom-slider-buttons.slider-button--next {
+    right: 40px;
+}
+
+.custom-slider-buttons.slider-button--prev {
+    left: 40px;
+}
+
+.slider-button.custom-slider-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 3;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: white;
+}
+
+.slider-button.custom-slider-buttons .icon {
+    height: 12px;
+}
+
+.custom-slider-counter.slider-counter {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    color: white;
+    font-size: 16px;
+    padding: 0px 16px;
+    border-radius: 30px;
+    background: #00000073;
+}
+
+.home1-featured-collection .card__badge {
+    display: none;
+}

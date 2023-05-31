@@ -1,0 +1,285 @@
+{
+  "sections": {
+    "ca019b32-043f-42cf-bd04-d2d30a713f71": {
+      "type": "home-image-banner",
+      "blocks": {
+        "template--19128299323707__ca019b32-043f-42cf-bd04-d2d30a713f71-16849941880b14e081-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Timeless <\/br> Best Sellers",
+            "heading_size": "h1"
+          }
+        },
+        "template--19128299323707__ca019b32-043f-42cf-bd04-d2d30a713f71-16849941880b14e081-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19128299323707__ca019b32-043f-42cf-bd04-d2d30a713f71-16849941880b14e081-0",
+        "template--19128299323707__ca019b32-043f-42cf-bd04-d2d30a713f71-16849941880b14e081-2"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #373737; font-size: 6.5rem; font-weight: 800; line-height: 0.93; text-transform: uppercase; letter-spacing: 4.5px;}",
+        ".banner__box {background: transparent;}",
+        ".banner__buttons a {background: #373737; color: white; font-weight: 900; width: 200px;}",
+        ".button:after {box-shadow: none !important;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/JL_Home_Vertigo_Desktop_2500x880_1600x_c6a35850-e514-4852-94a5-a3bbc715d3d6.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "67af72ee-d6d4-45e6-9737-35680fbc45d6": {
+      "type": "home-featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "family-packs",
+        "products_to_show": 11,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e0583115-9e16-4344-afec-437dfbbca727": {
+      "type": "home-rich-text",
+      "blocks": {
+        "template--19128299323707__e0583115-9e16-4344-afec-437dfbbca727-1685306834b31ef544-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BEACH ME UP COLLECTION",
+            "heading_size": "h1"
+          }
+        },
+        "template--19128299323707__e0583115-9e16-4344-afec-437dfbbca727-1685306834b31ef544-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Take the carefree vibes of summer with you wherever you go.<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19128299323707__e0583115-9e16-4344-afec-437dfbbca727-1685306834b31ef544-0",
+        "template--19128299323707__e0583115-9e16-4344-afec-437dfbbca727-1685306834b31ef544-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1a9363c5-81a4-4072-98e9-15c7a3aca65b": {
+      "type": "home-collage",
+      "blocks": {
+        "738792ca-0494-4b86-a49b-bb9f27def5a9": {
+          "type": "collection",
+          "settings": {
+            "collection": "family-packs"
+          }
+        },
+        "765531e9-951f-4a9d-b513-43fcbbcb8cde": {
+          "type": "collection",
+          "settings": {
+            "collection": "family-packs"
+          }
+        },
+        "69a1254e-507a-41c0-ba30-cbcd1a3d2e44": {
+          "type": "collection",
+          "settings": {
+            "collection": "family-packs"
+          }
+        },
+        "45e024ba-388a-4234-a02e-157221310a6f": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "429889e6-0da6-4fa4-9e9f-1fc5fd3c9a97": {
+          "type": "collection",
+          "settings": {
+            "collection": "family-packs"
+          }
+        }
+      },
+      "block_order": [
+        "738792ca-0494-4b86-a49b-bb9f27def5a9",
+        "765531e9-951f-4a9d-b513-43fcbbcb8cde",
+        "69a1254e-507a-41c0-ba30-cbcd1a3d2e44",
+        "45e024ba-388a-4234-a02e-157221310a6f",
+        "429889e6-0da6-4fa4-9e9f-1fc5fd3c9a97"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e12792dc-6159-48f7-87e7-c4fff406990b": {
+      "type": "home-featured-collection",
+      "settings": {
+        "title": "BASQUIAT X JIMMY LION",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "family-packs",
+        "products_to_show": 17,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "b1ca388a-c8fc-4014-a6e2-bf27a258ad2d": {
+      "type": "home-multicolumn",
+      "blocks": {
+        "template--19128299323707__b1ca388a-c8fc-4014-a6e2-bf27a258ad2d-1685307759e8719edf-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-timer.svg",
+            "title": "FREE SHIPPING",
+            "text": "<p>One orders over 50€<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19128299323707__b1ca388a-c8fc-4014-a6e2-bf27a258ad2d-1685307759e8719edf-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-timer.svg",
+            "title": "AVERAGE RATING",
+            "text": "<p>+47.000 reviews<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19128299323707__b1ca388a-c8fc-4014-a6e2-bf27a258ad2d-1685307759e8719edf-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-timer.svg",
+            "title": "PREMIUM QUALITY",
+            "text": "<p>Soft, durable socks<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19128299323707__b1ca388a-c8fc-4014-a6e2-bf27a258ad2d-1685307759e8719edf-0",
+        "template--19128299323707__b1ca388a-c8fc-4014-a6e2-bf27a258ad2d-1685307759e8719edf-1",
+        "template--19128299323707__b1ca388a-c8fc-4014-a6e2-bf27a258ad2d-1685307759e8719edf-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ff294cc6-7160-4a39-ad93-0353434254ab": {
+      "type": "newsletter",
+      "blocks": {
+        "template--19128299323707__ff294cc6-7160-4a39-ad93-0353434254ab-1685309514493c21dd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET 15% OFF!",
+            "heading_size": "h1"
+          }
+        },
+        "template--19128299323707__ff294cc6-7160-4a39-ad93-0353434254ab-1685309514493c21dd-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<h3>on your FIRST PURCHASE when you subscribe to our newsletter.<\/h3>"
+          }
+        },
+        "template--19128299323707__ff294cc6-7160-4a39-ad93-0353434254ab-1685309514493c21dd-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--19128299323707__ff294cc6-7160-4a39-ad93-0353434254ab-1685309514493c21dd-0",
+        "template--19128299323707__ff294cc6-7160-4a39-ad93-0353434254ab-1685309514493c21dd-1",
+        "template--19128299323707__ff294cc6-7160-4a39-ad93-0353434254ab-1685309514493c21dd-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "ca019b32-043f-42cf-bd04-d2d30a713f71",
+    "67af72ee-d6d4-45e6-9737-35680fbc45d6",
+    "e0583115-9e16-4344-afec-437dfbbca727",
+    "1a9363c5-81a4-4072-98e9-15c7a3aca65b",
+    "e12792dc-6159-48f7-87e7-c4fff406990b",
+    "b1ca388a-c8fc-4014-a6e2-bf27a258ad2d",
+    "ff294cc6-7160-4a39-ad93-0353434254ab"
+  ]
+}
