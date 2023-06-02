@@ -27,9 +27,10 @@
         "template--19128299323707__ca019b32-043f-42cf-bd04-d2d30a713f71-16849941880b14e081-2"
       ],
       "custom_css": [
-        ".banner__heading {color: #373737; font-size: 6.5rem; font-weight: 800; line-height: 0.93; text-transform: uppercase; letter-spacing: 4.5px;}",
-        ".banner__box {background: transparent;}",
-        ".banner__buttons a {background: #373737; color: white; font-weight: 900; width: 200px;}",
+        ".banner__heading {color: #373737; font-size: 3.75rem; font-weight: 800; line-height: 0.93; text-transform: uppercase; letter-spacing: 4.5px;}",
+        ".banner__box {background: transparent; padding-left: 0rem;}",
+        ".banner__content {max-width: 1400px;}",
+        ".banner__buttons a {font-size: 0.875rem; font-weight: 600; font-style: normal; line-height: normal; letter-spacing: 3px; padding: 0 1.25rem; min-width: 11.625rem; min-height: 3.375rem; color: #fff; background-color: #373737;}",
         ".button:after {box-shadow: none !important;}"
       ],
       "settings": {
@@ -86,7 +87,7 @@
         "template--19128299323707__e0583115-9e16-4344-afec-437dfbbca727-1685306834b31ef544-1": {
           "type": "text",
           "settings": {
-            "text": "<h2>Take the carefree vibes of summer with you wherever you go.<\/h2>"
+            "text": "<p>Take the carefree vibes of summer with you wherever you go.<\/p>"
           }
         }
       },
@@ -94,13 +95,17 @@
         "template--19128299323707__e0583115-9e16-4344-afec-437dfbbca727-1685306834b31ef544-0",
         "template--19128299323707__e0583115-9e16-4344-afec-437dfbbca727-1685306834b31ef544-1"
       ],
+      "custom_css": [
+        ".rich-text__heading {font-size: 1.5rem; font-weight: 600; font-stretch: normal; font-style: normal; line-height: 1.54; letter-spacing: 3.4px; margin-bottom: 0.125rem; margin: 0; text-transform: uppercase; color: black;}",
+        ".rich-text__text {font-size: 1.125rem; font-weight: 400; font-style: normal; line-height: 1.22; letter-spacing: 1.03px; color: #6a6a6a; display: block; margin: 0;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 48,
+        "padding_bottom": 36
       }
     },
     "1a9363c5-81a4-4072-98e9-15c7a3aca65b": {
@@ -144,6 +149,9 @@
         "45e024ba-388a-4234-a02e-157221310a6f",
         "429889e6-0da6-4fa4-9e9f-1fc5fd3c9a97"
       ],
+      "custom_css": [
+        ".full-unstyled-link {color: #fff; font-size: 1.5rem; font-weight: 600; font-stretch: normal; font-style: normal; line-height: 1.54; letter-spacing: 3.4px; margin: 0;}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -157,6 +165,9 @@
     },
     "e12792dc-6159-48f7-87e7-c4fff406990b": {
       "type": "home-featured-collection",
+      "custom_css": [
+        ".inline-richtext {color: black; font-size: 1.5rem; font-weight: 600; font-stretch: normal; font-style: normal; line-height: 1.54; letter-spacing: 3.4px; margin-bottom: 0.125rem;}"
+      ],
       "settings": {
         "title": "BASQUIAT X JIMMY LION",
         "heading_size": "h1",
@@ -178,8 +189,8 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 52,
-        "padding_bottom": 52
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "b1ca388a-c8fc-4014-a6e2-bf27a258ad2d": {
@@ -221,6 +232,10 @@
         "template--19128299323707__b1ca388a-c8fc-4014-a6e2-bf27a258ad2d-1685307759e8719edf-1",
         "template--19128299323707__b1ca388a-c8fc-4014-a6e2-bf27a258ad2d-1685307759e8719edf-2"
       ],
+      "custom_css": [
+        ".inline-richtext {color: #080808; font-size: 0.875rem; font-stretch: normal; font-style: normal; line-height: 1.43; margin: 0;}",
+        ".rte p {color: #080808; font-size: 0.875rem; font-stretch: normal; font-style: normal; line-height: 1.43; margin: 0;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -234,12 +249,13 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "padding_bottom": 36
       }
     },
     "ff294cc6-7160-4a39-ad93-0353434254ab": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "template--19128299323707__ff294cc6-7160-4a39-ad93-0353434254ab-1685309514493c21dd-0": {
           "type": "heading",

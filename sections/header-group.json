@@ -26,6 +26,11 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".icon-search {width: 24px; height: 24px;}",
+        ".icon-account {width: 24px; height: 24px;}",
+        ".icon-cart-empty {width: 54px; height: 54px;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",

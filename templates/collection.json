@@ -2,33 +2,122 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "background-1"
       }
     },
-    "product-grid": {
-      "type": "main-collection-product-grid",
+    "cd4234f4-e84d-4fe3-a39b-0331f6f14954": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19128298471739__cd4234f4-e84d-4fe3-a39b-0331f6f14954-1685603197cf46767e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR GREATEST HITS",
+            "heading_size": "h1"
+          }
+        },
+        "template--19128298471739__cd4234f4-e84d-4fe3-a39b-0331f6f14954-1685603197cf46767e-1": {
+          "type": "text",
+          "settings": {
+            "text": "Get your hands on the socks everyone's talking about & say goodbye to forgettable looks. You won't want to take off these socks from our blockbuster collaborations. E.T., Jurassic World, Minions... Think you can choose just one?",
+            "text_style": "body"
+          }
+        },
+        "template--19128298471739__cd4234f4-e84d-4fe3-a39b-0331f6f14954-1685603197cf46767e-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19128298471739__cd4234f4-e84d-4fe3-a39b-0331f6f14954-1685603197cf46767e-0",
+        "template--19128298471739__cd4234f4-e84d-4fe3-a39b-0331f6f14954-1685603197cf46767e-1",
+        "template--19128298471739__cd4234f4-e84d-4fe3-a39b-0331f6f14954-1685603197cf46767e-2"
+      ],
+      "custom_css": [
+        ".banner {max-width: 1400px; margin: 0 auto;}",
+        ".banner__box {background: transparent; max-width: 550px;}",
+        ".banner__heading {color: #373737; font-size: 3.125rem; font-weight: 700; font-stretch: normal; font-style: normal; line-height: 1.22; letter-spacing: 2.03px; margin: 0;}",
+        ".banner__text {color: #373737; font-size: 1.125rem; font-weight: 400; font-stretch: normal; font-style: normal; line-height: 1.44; letter-spacing: 0.77px;}"
+      ],
       "settings": {
-        "products_per_page": 16,
+        "image_2": "shopify:\/\/shop_images\/Collabs-arriba-desktop_1500x_89c33219-d443-4235-a0a8-96772054165c.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "custom-product-grid": {
+      "type": "custom-main-collection-product-grid",
+      "custom_css": [
+        ".facets-vertical {max-width: 1400px; margin: 0 auto;}",
+        ".facets__form-vertical {width: 14rem;}",
+        ".facet-checkbox {padding: 1rem 1rem 0.5rem 0; font-size: 0.875rem;}",
+        ".facets__header-vertical {font-size: 0.875rem;}",
+        ".facets__summary {font-size: 1rem; padding: 1rem 0;}",
+        ".facets__disclosure-vertical {border: none;}",
+        ".facets__heading {display: none;}",
+        ".facet-checkbox input {display: none;}",
+        ".facet-checkbox > svg {display: none;}",
+        ".active-facets {display: none;}"
+      ],
+      "settings": {
+        "products_per_page": 20,
         "columns_desktop": 4,
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "enable_filtering": true,
-        "filter_type": "horizontal",
-        "enable_sorting": true,
+        "filter_type": "vertical",
+        "enable_sorting": false,
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "81704222-e1fc-4af5-8bbd-dd5c125d1c71": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner {max-width: 1400px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/JL_BMU_Landing_Footer_Desktop_2500x726_v2_1500x_22d7e4c7-c166-40b1-b172-a118b7881a58.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "cd4234f4-e84d-4fe3-a39b-0331f6f14954",
+    "custom-product-grid",
+    "81704222-e1fc-4af5-8bbd-dd5c125d1c71"
   ]
 }

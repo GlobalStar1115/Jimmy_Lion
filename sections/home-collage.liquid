@@ -22,7 +22,7 @@
 <div class="color-{{ section.settings.color_scheme }} gradient isolate">
   <div class="page-width{% if section.settings.heading == blank %} no-heading{% endif %} section-{{ section.id }}-padding">
     <h2 class="collage-wrapper-title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
-    <div class="collage{% if section.settings.mobile_layout == 'collage' %} home-collage collage--mobile{% endif %}">
+    <div class="collage home-collage{% if section.settings.mobile_layout == 'collage' %}  collage--mobile{% endif %}">
       {%- for block in section.blocks -%}
         <div
           class="collage__item collage__item--{{ block.type }} collage__item--{{ section.settings.desktop_layout }}"
@@ -200,7 +200,7 @@
 
 {% schema %}
 {
-  "name": "Home College",
+  "name": "Home Collage",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -407,7 +407,7 @@
   "max_blocks": 5,
   "presets": [
     {
-      "name": "Home College",
+      "name": "Home Collage",
       "blocks": [
         {
           "type": "image"

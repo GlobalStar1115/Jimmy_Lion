@@ -1,3 +1,26 @@
+.header__menu-item.link {
+    font-size: 1rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.45px;
+    color: #6a6a6a;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+}
+
+span.header__active-menu-item {
+  text-decoration: none;
+  color: #6a6a6a;
+}
+
+.header {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 .main-banner__scroll-button {
     position: absolute;
     left: 50%;
@@ -9,6 +32,11 @@
 
 #scroll-target {
     display: block !important;
+}
+
+.multicolumn.home-multicolumn {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .multicolumn.home-multicolumn .multicolumn-card {
@@ -34,7 +62,7 @@
 }
 
 .multicolumn.home-multicolumn .home-multicolumn-body {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .home-multicolumn .multicolumn-list__item.center .multicolumn-card__image-wrapper:not(.multicolumn-card__image-wrapper--full-width), .home-multicolumn .multicolumn-list__item:only-child {
@@ -121,6 +149,7 @@
     color: white;
     text-align: center;
     text-transform: uppercase;
+    min-height: 50px;
     color: #fff;
     font-size: 0.875rem;
     font-weight: 700;
@@ -138,7 +167,7 @@
 
 .home-collection .card:not(.ratio)>.card__content {
   position: absolute;
-  bottom: -70px;
+  bottom: -80px;
   background: white;
   padding-top: 1rem;
   transition: all .3s ease-in-out;
@@ -150,11 +179,16 @@
 }
 
 .home-collection .slider-button--next {
-    right: 40px;
+    right: -64px;
 }
 
 .home-collection .slider-button--prev {
-    left: 40px;
+    left: -64px;
+}
+
+.home-collection .card__information {
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .home-collection .slider-button {
@@ -172,10 +206,35 @@
 }
 
 .collection.home-collection slider-component:not(.page-width-desktop) {
-    padding: 0 100px;
+    max-width: 1170px;
 }
 
-.collage .full-unstyled-link {
+.home-collection .full-unstyled-link {
+    font-size: 1rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 3.43px;
+    color: #080808;
+    margin: 0 0 0.125rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 250px;
+}
+
+.home-collection .price-item {
+    font-size: 1rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+.home-collage .full-unstyled-link {
   text-align: center;
   color: white;
   text-transform: uppercase;
@@ -186,8 +245,13 @@
   justify-content: center;
 }
 
+.home-collage.collage {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 
-.collage .card__content {
+
+.home-collage .card__content {
   position: absolute;
   display: flex;
   align-items: center;
@@ -198,16 +262,22 @@
   transition: all .3s ease-in-out;
 }
 
-.collage .collage__item--collection:hover .card__content {
+.home-collage .collage__item--collection:hover .card__content {
   visibility: visible;
   transition: all .3s ease-in-out;
 }
 
-.collage .home-collection-button {
+/* .home-collage .card__heading:hover .home-collection-button {
+  background: white;
+  color: #373737;
+} */
+
+.home-collage .home-collection-button {
   color: white;
   text-transform: uppercase;
   border: white 2px solid;
-  padding: 5px 20px;
+  padding: 0.625rem;
   background: transparent;
   margin-top: 10px;
+  font-size: 0.875rem;
 }

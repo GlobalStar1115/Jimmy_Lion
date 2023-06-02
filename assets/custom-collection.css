@@ -1,0 +1,107 @@
+.card--card, .card--standard .card__inner {
+    margin-bottom: 100px;
+}
+
+.product-card-wrapper:hover .card:not(.ratio)>.card__content {
+  bottom: 0;
+}
+
+.slider-counter {
+  display: none;
+}
+
+.quick-add button {
+    background: #373737;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 50px;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.quick-add button img {
+  margin-left: 10px;
+}
+
+.home-collection.collection .collection__title--desktop-slider .title  {
+  font-weight: 600;
+  text-align: center;
+}
+
+.card:not(.ratio)>.card__content {
+  position: absolute;
+  bottom: -70px;
+  z-index: 0;
+  background: white;
+  padding-top: 1rem;
+  transition: all .3s ease-in-out;
+}
+
+.grid__item {
+  overflow: hidden;
+}
+
+.button:not([disabled]):hover:after, .shopify-challenge__button:hover:after, .customer button:hover:after, .shopify-payment-button__button--unbranded:hover:after {
+    --border-offset: none;
+    box-shadow: none;
+}
+
+.slider-button--next {
+    right: -64px;
+}
+
+.slider-button--prev {
+    left: -64px;
+}
+
+.card__information {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 3;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.slider-button .icon {
+    height: 70px;
+}
+
+.collectionslider-component:not(.page-width-desktop) {
+    max-width: 1170px;
+}
+
+.full-unstyled-link {
+    font-size: 1rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 3.43px;
+    color: #080808;
+    margin: 0 0 0.125rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 250px;
+}
+
+.price-item {
+    font-size: 1rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    margin: 0;
+}
+

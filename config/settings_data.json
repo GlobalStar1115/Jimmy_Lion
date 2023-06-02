@@ -1,15 +1,15 @@
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/logo.svg",
-    "logo_width": 90,
+    "logo_width": 200,
     "favicon": "shopify:\/\/shop_images\/Jimmy_Lion_Favicon_32x32_60696627-da09-4f88-9c23-32ac3c1bf8f2.png",
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#121212",
+    "colors_accent_1": "#6a6a6a",
     "gradient_accent_1": "",
     "colors_accent_2": "#334fb4",
     "gradient_accent_2": "",
-    "colors_text": "#121212",
-    "colors_outline_button_labels": "#121212",
+    "colors_text": "#6a6a6a",
+    "colors_outline_button_labels": "#6a6a6a",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
@@ -18,10 +18,10 @@
     "heading_scale": 100,
     "type_body_font": "sans-serif",
     "body_scale": 100,
-    "page_width": 1600,
+    "page_width": 1400,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 4,
-    "spacing_grid_vertical": 8,
+    "spacing_grid_horizontal": 16,
+    "spacing_grid_vertical": 16,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -44,7 +44,7 @@
     "inputs_shadow_vertical_offset": 4,
     "inputs_shadow_blur": 5,
     "card_style": "standard",
-    "card_image_padding": 0,
+    "card_image_padding": 10,
     "card_text_alignment": "left",
     "card_color_scheme": "background-1",
     "card_border_thickness": 0,
@@ -88,7 +88,7 @@
     "media_radius": 0,
     "media_shadow_opacity": 0,
     "media_shadow_horizontal_offset": 0,
-    "media_shadow_vertical_offset": 4,
+    "media_shadow_vertical_offset": 2,
     "media_shadow_blur": 5,
     "popup_border_thickness": 1,
     "popup_border_opacity": 10,
@@ -144,7 +144,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "7570552984445421165": {
+        "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "disabled": true,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
